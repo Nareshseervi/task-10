@@ -1,0 +1,51 @@
+K-mean
+
+There are many clustering algorithms, each has its advantages and disadvantages. A popular algorithm for clustering is K-means, which aims to identify the best k cluster centers in an iterative manner. Cluster centers are served as “representative” of the objects associated with the cluster.
+
+K-Means clustering is an unsupervised learning algorithm. There is no labeled data for this clustering, unlike in supervised learning. K-Means performs the division of objects into clusters that share similarities and are dissimilar to the objects belonging to another cluster.
+
+The term ‘K’ is a number. You need to tell the system how many clusters you need to create. For example, K = 2 refers to two clusters. There is a way of finding out what is the best or optimum value of K for a given data.
+
+Use-Cases in the Security Domain :
+
+k-means can typically be applied to data that has a smaller number of dimensions, is numeric, and is continuous. think of a scenario in which you want to make groups of similar things from a randomly distributed collection of things k-means is very suitable for such scenarios.
+
+Clustering Analysis for Malware Behavior Detection in Cyber Crime
+
+Cyber-attacks become the biggest threat in computer and networks system around the world. Because of that it is important to merge IDS that can detect and analyze the data with high accuracy (i.e., true positives and negative) and low false detection (i.e., false positive and negative) in the minimal detection time. So, K-Means clustering detection model with appoint of data mining, peculiarly clustering method is a notable field that can be explored to overcome this matter. It is a need to have continuous of IDS improvement in term of the accuracy of malware analysis, the detection time and the suitable detection approach; are the motivations for this research.
+
+Malware Detection :
+
+Malware interrupt the file registry when entering a computer and basically malware tend to create and modify computer files system and Windows registry entries besides the computer inter process communication and basic network interaction. Intrusion attack such as malwares are known to breach the policy of network security in organizations and continuously tries to interrupt the core fundamental of cyber security which are Confidential, Integrity and Availability or known as CIA.
+
+Therefore, previous cyber security researcher has proposed detection-based for malware intrusion, which is a framework that monitors the behavior of system activity. Then, the behavior will be analyzed by the framework and notify the users if there is a sign of intrusion.
+
+Analysis of Intrusion Detection System :
+
+It divides the data into certain polymerization classes according to the attribute of the data. Network intrusion detection is the process of monitoring the events occurring in a computing system or network and analysing them for signs of intrusions, defined as attempts to compromise the confidentiality.
+
+The intrusion attacks can be divided into four categories: Probe (e.g. IP sweep, vulnerability scanning), denial of service (DoS) (e.g. mail bomb, UDP storm), user-to-root (U2R) (e.g. buffer overflow attacks, root kits) and remote-to-local (R2L) (e.g. password guessing, worm attack)
+
+Clustering is the method of grouping objects into meaningful subclasses so that the members from the same cluster are quite similar, and the members from different clusters are quite different from each other. Therefore clustering methods can be useful for classifying log data and detecting intrusion.
+
+Cyber Profiling using Log Analysis and K-Means Clustering :
+
+The Activities of Internet users are increasing from year to year and has had an impact on the behavior of the users themselves. Assessment of user behavior is often only based on interaction across the Internet without knowing any others activities. The log activity can be used as another way to study the behavior of the user. The Log Internet activity is one of the types of big data so that the use of data mining with K-Means technique can be used as a solution for the analysis of user behavior.
+
+In general, cyber profiling analysis is the exploration of data to determine what user activity at the time of internet access. One method that can be used to support the profiling process is a K-Means clustering. Through these algorithms, the data can be grouped by the number of websites visited. This grouping aims to see what the user frequently accesses websites.
+
+Identify Outlier Access :
+
+The average user has more than 100 entitlements and that can be very difficult to manage manually. Through the use of the Clustering and K-Means machine learning model, we can detect access outliers by analyzing what’s going on with dynamic peer groups of users.
+
+Let’s look at an example.
+
+On a Saturday afternoon, the company access data shows an employee from IT working on your production finance system. This is seemingly an outlier activity for an IT employee, as it’s not typical for someone in this role to be accessing a production finance system, much less on a Saturday afternoon. So, is this risky activity? As well, at the exact same time and on the same day, you have a business analyst accessing and working on that same production finance application.
+
+If we examine these two access activities individually, we might perceive a problem. Yet, if we combine these two access data points dynamically, the situation may appear to be less risky. Read on.
+
+Now, let’s add an additional person from the Finance organization, a financial analyst, and they are also accessing the same production finance application and on the same Saturday. We have three instances of three different people, from different work groups, all accessing the production finance system at the same time and on the same day. So, what’s going on?
+
+What’s most likely taking place in this scenario is these employees are working together to perform a system upgrade or are resolving a production issue occurring in the financial system. From a real-world viewpoint, where we can examine traditional static data attributes such as job title or department number, these three employees would not be considered a relevant peer group. From a behavioral analytics standpoint, these three employees do comprise a dynamically generated peer group, as there is system data logging their actions of accessing the same production finance system at the same time.
+
+Dynamic peer groups are clusters of users that are created as Risk Analytics ingests log data, in near real time, all internal to the machine learning algorithms. Dynamic peer groups are fairly transient, yet they can be retained for future reference.
